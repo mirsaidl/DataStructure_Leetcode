@@ -3,7 +3,7 @@ item = 56
 
 def binary_search(data, item):
     beg = 0
-    end = len(data)
+    end = len(data) - 1
     loc = -1
 
     while beg <= end:
